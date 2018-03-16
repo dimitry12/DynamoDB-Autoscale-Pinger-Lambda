@@ -16,7 +16,7 @@ It requires the following IAM policy:
                 "dynamodb:ListTables",
                 "dynamodb:DescribeTable",
                 "dynamodb:DeleteItem",
-                "dynamodb:GetItem"
+                "dynamodb:Query"
             ],
             "Resource": "*"
         }
